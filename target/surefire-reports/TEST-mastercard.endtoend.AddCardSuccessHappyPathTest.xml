@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="mastercard.endtoend.AddCardSuccessHappyPathTest" time="50.839" tests="10" errors="10" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/e080586/Documents/projectnew/jnuit/target/test-classes:/Users/e080586/Documents/projectnew/jnuit/target/classes:/Users/e080586/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/e080586/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/e080586/.m2/repository/org/seleniumhq/selenium/selenium-java/3.11.0/selenium-java-3.11.0.jar:/Users/e080586/.m2/repository/org/seleniumhq/selenium/selenium-api/3.11.0/selenium-api-3.11.0.jar:/Users/e080586/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.11.0/selenium-chrome-driver-3.11.0.jar:/Users/e080586/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.11.0/selenium-edge-driver-3.11.0.jar:/Users/e080586/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.11.0/selenium-firefox-driver-3.11.0.jar:/Users/e080586/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.11.0/selenium-ie-driver-3.11.0.jar:/Users/e080586/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.11.0/selenium-opera-driver-3.11.0.jar:/Users/e080586/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.11.0/selenium-remote-driver-3.11.0.jar:/Users/e080586/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.11.0/selenium-safari-driver-3.11.0.jar:/Users/e080586/.m2/repository/org/seleniumhq/selenium/selenium-support/3.11.0/selenium-support-3.11.0.jar:/Users/e080586/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/Users/e080586/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/e080586/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/e080586/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/e080586/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/e080586/.m2/repository/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar:/Users/e080586/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/e080586/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/e080586/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/e080586/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/e080586/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/e080586/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/e080586/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/e080586/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/e080586/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/e080586/Documents/projectnew/jnuit/target/surefire/surefirebooter1237634116329250899.jar /Users/e080586/Documents/projectnew/jnuit/target/surefire 2018-03-28T16-51-45_286-jvmRun1 surefire9068513408754495745tmp surefire_0847937493171523674tmp"/>
+    <property name="surefire.test.class.path" value="/Users/e080586/Documents/projectnew/jnuit/target/test-classes:/Users/e080586/Documents/projectnew/jnuit/target/classes:/Users/e080586/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/e080586/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/e080586/.m2/repository/org/seleniumhq/selenium/selenium-java/3.11.0/selenium-java-3.11.0.jar:/Users/e080586/.m2/repository/org/seleniumhq/selenium/selenium-api/3.11.0/selenium-api-3.11.0.jar:/Users/e080586/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.11.0/selenium-chrome-driver-3.11.0.jar:/Users/e080586/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.11.0/selenium-edge-driver-3.11.0.jar:/Users/e080586/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.11.0/selenium-firefox-driver-3.11.0.jar:/Users/e080586/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.11.0/selenium-ie-driver-3.11.0.jar:/Users/e080586/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.11.0/selenium-opera-driver-3.11.0.jar:/Users/e080586/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.11.0/selenium-remote-driver-3.11.0.jar:/Users/e080586/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.11.0/selenium-safari-driver-3.11.0.jar:/Users/e080586/.m2/repository/org/seleniumhq/selenium/selenium-support/3.11.0/selenium-support-3.11.0.jar:/Users/e080586/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/Users/e080586/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/e080586/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/e080586/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/e080586/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/e080586/.m2/repository/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar:/Users/e080586/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/e080586/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/e080586/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/e080586/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/e080586/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/e080586/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/e080586/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/e080586/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/e080586/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/e080586"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/e080586/Documents/projectnew/jnuit"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/e080586/Documents/projectnew/jnuit/target/surefire/surefirebooter1237634116329250899.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_161-b12"/>
+    <property name="user.name" value="e080586"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.12.6"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/e080586/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/6j/_1hh0ny942g06k1ncbhn2590t58620/T/"/>
+    <property name="surefire.rerunFailingTestsCount" value="2"/>
+    <property name="java.version" value="1.8.0_161"/>
+    <property name="user.dir" value="/Users/e080586/Documents/projectnew/jnuit"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/e080586/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.161-b12"/>
+    <property name="wedriver.chrome.driver" value="chromedriver.exe"/>
+    <property name="java.ext.dirs" value="/Users/e080586/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="addCardEndToEndFlow10" classname="mastercard.endtoend.AddCardSuccessHappyPathTest" time="10.21">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;card&quot;}&#10;  (Session info: chrome=65.0.3325.181)&#10;  (Driver info: chromedriver=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;C02Q5SDHG8WN&apos;, ip: &apos;fe80:0:0:0:18f3:e103:abcf:1e17%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544337 (8c0344a12e5521..., userDataDir: /var/folders/6j/_1hh0ny942g...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}&#10;Session ID: 2ea0c2197841735c350b9397bdf680ce&#10;*** Element info: {Using=name, value=card}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"name","selector":"card"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'C02Q5SDHG8WN', ip: 'fe80:0:0:0:18f3:e103:abcf:1e17%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544337 (8c0344a12e5521..., userDataDir: /var/folders/6j/_1hh0ny942g...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 2ea0c2197841735c350b9397bdf680ce
+*** Element info: {Using=name, value=card}
+	at mastercard.endtoend.AddCardSuccessHappyPathTest.e2eflow(AddCardSuccessHappyPathTest.java:41)
+	at mastercard.endtoend.AddCardSuccessHappyPathTest.addCardEndToEndFlow10(AddCardSuccessHappyPathTest.java:110)
+</error>
+    <system-out><![CDATA[SStatarrtting Cing ChrohrmeDorimver 2.37.5443e3D7river  2.3(78c0.354444a12e552148c185f7d51337 (8c03144a7db1f218d2e6c9e8555) on2 port 18394
+On1l4y local co8nc185nectifo7ns arde allowed.
+5117db1f28d6c9e85) on port 6687
+Only local connections are allowed.
+Mar 28, 2018 4:51:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Got Chrome Driver
+Mar 28, 2018 4:51:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Got Chrome Driver
+Starting ChromeDriver 2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85) on port 29866
+Only local connections are allowed.
+Starting ChromeDriver 2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85) on port 39041
+Only local connections are allowed.
+Mar 28, 2018 4:51:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Got Chrome Driver
+Mar 28, 2018 4:51:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Got Chrome Driver
+Starting ChromeDriver 2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85) on port 7793
+Only local connections are allowed.
+Starting ChromeDriver 2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85) on port 26064
+Only local connections are allowed.
+Mar 28, 2018 4:52:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Got Chrome Driver
+Mar 28, 2018 4:52:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Got Chrome Driver
+Starting ChromeDriver 2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85) on port 9235
+Only local connections are allowed.
+Starting ChromeDriver 2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85) on port 38663
+Only local connections are allowed.
+Mar 28, 2018 4:52:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Got Chrome Driver
+Mar 28, 2018 4:52:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Got Chrome Driver
+Starting ChromeDriver 2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85) on port 10579
+Only local connections are allowed.
+Mar 28, 2018 4:52:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Got Chrome Driver
+Starting ChromeDriver 2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85) on port 17331
+Only local connections are allowed.
+Mar 28, 2018 4:52:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Got Chrome Driver
+SETUP PHASE
+]]></system-out>
+  </testcase>
+  <testcase name="addCardEndToEndFlow1" classname="mastercard.endtoend.AddCardSuccessHappyPathTest" time="10.136">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;card&quot;}&#10;  (Session info: chrome=65.0.3325.181)&#10;  (Driver info: chromedriver=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;C02Q5SDHG8WN&apos;, ip: &apos;fe80:0:0:0:18f3:e103:abcf:1e17%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544337 (8c0344a12e5521..., userDataDir: /var/folders/6j/_1hh0ny942g...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}&#10;Session ID: 2a4afff0a3d8bbb5c1d51827681079b7&#10;*** Element info: {Using=name, value=card}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"name","selector":"card"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'C02Q5SDHG8WN', ip: 'fe80:0:0:0:18f3:e103:abcf:1e17%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544337 (8c0344a12e5521..., userDataDir: /var/folders/6j/_1hh0ny942g...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 2a4afff0a3d8bbb5c1d51827681079b7
+*** Element info: {Using=name, value=card}
+	at mastercard.endtoend.AddCardSuccessHappyPathTest.e2eflow(AddCardSuccessHappyPathTest.java:41)
+	at mastercard.endtoend.AddCardSuccessHappyPathTest.addCardEndToEndFlow1(AddCardSuccessHappyPathTest.java:51)
+</error>
+    <system-out><![CDATA[SETUP PHASE
+]]></system-out>
+  </testcase>
+  <testcase name="addCardEndToEndFlow3" classname="mastercard.endtoend.AddCardSuccessHappyPathTest" time="10.097">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;card&quot;}&#10;  (Session info: chrome=65.0.3325.181)&#10;  (Driver info: chromedriver=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;C02Q5SDHG8WN&apos;, ip: &apos;fe80:0:0:0:18f3:e103:abcf:1e17%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544337 (8c0344a12e5521..., userDataDir: /var/folders/6j/_1hh0ny942g...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}&#10;Session ID: a68c1a5cde3b6bc0c9dd8f9d343055df&#10;*** Element info: {Using=name, value=card}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"name","selector":"card"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'C02Q5SDHG8WN', ip: 'fe80:0:0:0:18f3:e103:abcf:1e17%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544337 (8c0344a12e5521..., userDataDir: /var/folders/6j/_1hh0ny942g...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: a68c1a5cde3b6bc0c9dd8f9d343055df
+*** Element info: {Using=name, value=card}
+	at mastercard.endtoend.AddCardSuccessHappyPathTest.e2eflow(AddCardSuccessHappyPathTest.java:41)
+	at mastercard.endtoend.AddCardSuccessHappyPathTest.addCardEndToEndFlow3(AddCardSuccessHappyPathTest.java:65)
+</error>
+    <system-out><![CDATA[SETUP PHASE
+]]></system-out>
+  </testcase>
+  <testcase name="addCardEndToEndFlow2" classname="mastercard.endtoend.AddCardSuccessHappyPathTest" time="10.142">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;card&quot;}&#10;  (Session info: chrome=65.0.3325.181)&#10;  (Driver info: chromedriver=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;C02Q5SDHG8WN&apos;, ip: &apos;fe80:0:0:0:18f3:e103:abcf:1e17%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544337 (8c0344a12e5521..., userDataDir: /var/folders/6j/_1hh0ny942g...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}&#10;Session ID: 45bae857c551eabf6368c5bc66fb7a8d&#10;*** Element info: {Using=name, value=card}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"name","selector":"card"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'C02Q5SDHG8WN', ip: 'fe80:0:0:0:18f3:e103:abcf:1e17%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544337 (8c0344a12e5521..., userDataDir: /var/folders/6j/_1hh0ny942g...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 45bae857c551eabf6368c5bc66fb7a8d
+*** Element info: {Using=name, value=card}
+	at mastercard.endtoend.AddCardSuccessHappyPathTest.e2eflow(AddCardSuccessHappyPathTest.java:41)
+	at mastercard.endtoend.AddCardSuccessHappyPathTest.addCardEndToEndFlow2(AddCardSuccessHappyPathTest.java:58)
+</error>
+    <system-out><![CDATA[SETUP PHASE
+]]></system-out>
+  </testcase>
+  <testcase name="addCardEndToEndFlow4" classname="mastercard.endtoend.AddCardSuccessHappyPathTest" time="10.236">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;card&quot;}&#10;  (Session info: chrome=65.0.3325.181)&#10;  (Driver info: chromedriver=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;C02Q5SDHG8WN&apos;, ip: &apos;fe80:0:0:0:18f3:e103:abcf:1e17%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544337 (8c0344a12e5521..., userDataDir: /var/folders/6j/_1hh0ny942g...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}&#10;Session ID: a5784d825819f2dd94049c4e0391e3b0&#10;*** Element info: {Using=name, value=card}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"name","selector":"card"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'C02Q5SDHG8WN', ip: 'fe80:0:0:0:18f3:e103:abcf:1e17%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544337 (8c0344a12e5521..., userDataDir: /var/folders/6j/_1hh0ny942g...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: a5784d825819f2dd94049c4e0391e3b0
+*** Element info: {Using=name, value=card}
+	at mastercard.endtoend.AddCardSuccessHappyPathTest.e2eflow(AddCardSuccessHappyPathTest.java:41)
+	at mastercard.endtoend.AddCardSuccessHappyPathTest.addCardEndToEndFlow4(AddCardSuccessHappyPathTest.java:71)
+</error>
+    <system-out><![CDATA[SETUP PHASE
+]]></system-out>
+  </testcase>
+  <testcase name="addCardEndToEndFlow5" classname="mastercard.endtoend.AddCardSuccessHappyPathTest" time="10.116">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;card&quot;}&#10;  (Session info: chrome=65.0.3325.181)&#10;  (Driver info: chromedriver=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;C02Q5SDHG8WN&apos;, ip: &apos;fe80:0:0:0:18f3:e103:abcf:1e17%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544337 (8c0344a12e5521..., userDataDir: /var/folders/6j/_1hh0ny942g...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}&#10;Session ID: c59bb9f44db13b613ec2744c57146905&#10;*** Element info: {Using=name, value=card}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"name","selector":"card"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'C02Q5SDHG8WN', ip: 'fe80:0:0:0:18f3:e103:abcf:1e17%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544337 (8c0344a12e5521..., userDataDir: /var/folders/6j/_1hh0ny942g...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: c59bb9f44db13b613ec2744c57146905
+*** Element info: {Using=name, value=card}
+	at mastercard.endtoend.AddCardSuccessHappyPathTest.e2eflow(AddCardSuccessHappyPathTest.java:41)
+	at mastercard.endtoend.AddCardSuccessHappyPathTest.addCardEndToEndFlow5(AddCardSuccessHappyPathTest.java:78)
+</error>
+    <system-out><![CDATA[SETUP PHASE
+]]></system-out>
+  </testcase>
+  <testcase name="addCardEndToEndFlow6" classname="mastercard.endtoend.AddCardSuccessHappyPathTest" time="7.615">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at mastercard.endtoend.AddCardSuccessHappyPathTest.e2eflow(AddCardSuccessHappyPathTest.java:41)
+	at mastercard.endtoend.AddCardSuccessHappyPathTest.addCardEndToEndFlow6(AddCardSuccessHappyPathTest.java:84)
+</error>
+    <system-out><![CDATA[SETUP PHASE
+]]></system-out>
+  </testcase>
+  <testcase name="addCardEndToEndFlow7" classname="mastercard.endtoend.AddCardSuccessHappyPathTest" time="10.161">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;card&quot;}&#10;  (Session info: chrome=65.0.3325.181)&#10;  (Driver info: chromedriver=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;C02Q5SDHG8WN&apos;, ip: &apos;fe80:0:0:0:18f3:e103:abcf:1e17%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544337 (8c0344a12e5521..., userDataDir: /var/folders/6j/_1hh0ny942g...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}&#10;Session ID: f3e5fe4a63f563c819c8877323082a46&#10;*** Element info: {Using=name, value=card}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"name","selector":"card"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'C02Q5SDHG8WN', ip: 'fe80:0:0:0:18f3:e103:abcf:1e17%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544337 (8c0344a12e5521..., userDataDir: /var/folders/6j/_1hh0ny942g...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: f3e5fe4a63f563c819c8877323082a46
+*** Element info: {Using=name, value=card}
+	at mastercard.endtoend.AddCardSuccessHappyPathTest.e2eflow(AddCardSuccessHappyPathTest.java:41)
+	at mastercard.endtoend.AddCardSuccessHappyPathTest.addCardEndToEndFlow7(AddCardSuccessHappyPathTest.java:91)
+</error>
+    <system-out><![CDATA[SETUP PHASE
+]]></system-out>
+  </testcase>
+  <testcase name="addCardEndToEndFlow8" classname="mastercard.endtoend.AddCardSuccessHappyPathTest" time="10.203">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;card&quot;}&#10;  (Session info: chrome=65.0.3325.181)&#10;  (Driver info: chromedriver=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;C02Q5SDHG8WN&apos;, ip: &apos;fe80:0:0:0:18f3:e103:abcf:1e17%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544337 (8c0344a12e5521..., userDataDir: /var/folders/6j/_1hh0ny942g...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}&#10;Session ID: f5fd1fcdb0733ec7c7a9580010cb0948&#10;*** Element info: {Using=name, value=card}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"name","selector":"card"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'C02Q5SDHG8WN', ip: 'fe80:0:0:0:18f3:e103:abcf:1e17%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544337 (8c0344a12e5521..., userDataDir: /var/folders/6j/_1hh0ny942g...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: f5fd1fcdb0733ec7c7a9580010cb0948
+*** Element info: {Using=name, value=card}
+	at mastercard.endtoend.AddCardSuccessHappyPathTest.e2eflow(AddCardSuccessHappyPathTest.java:41)
+	at mastercard.endtoend.AddCardSuccessHappyPathTest.addCardEndToEndFlow8(AddCardSuccessHappyPathTest.java:98)
+</error>
+    <system-out><![CDATA[SETUP PHASE
+]]></system-out>
+  </testcase>
+  <testcase name="addCardEndToEndFlow9" classname="mastercard.endtoend.AddCardSuccessHappyPathTest" time="5.606">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at mastercard.endtoend.AddCardSuccessHappyPathTest.e2eflow(AddCardSuccessHappyPathTest.java:41)
+	at mastercard.endtoend.AddCardSuccessHappyPathTest.addCardEndToEndFlow9(AddCardSuccessHappyPathTest.java:104)
+</error>
+    <system-out><![CDATA[SETUP PHASE
+]]></system-out>
+  </testcase>
+</testsuite>
