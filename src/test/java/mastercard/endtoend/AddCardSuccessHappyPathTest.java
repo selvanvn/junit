@@ -1,5 +1,6 @@
 package mastercard.endtoend;
 
+import mastercard.utilities.DriverFactory;
 import mastercard.utilities.DriverProvider;
 import org.junit.*;
 import org.openqa.selenium.WebDriver;
@@ -7,6 +8,7 @@ import mastercard.pages.CerseiRegisterPage;
 import mastercard.pages.CheckoutPage;
 import mastercard.pages.ThreeDSVerificationPage;
 
+import java.util.concurrent.TimeUnit;
 
 
 /**
@@ -19,7 +21,7 @@ public class AddCardSuccessHappyPathTest {
     CheckoutPage c;//=PageFactory.initElements(driver,CheckoutPage.class);
     ThreeDSVerificationPage tp;//=PageFactory.initElements(driver,ThreeDSVerificationPage.class);
     String browser = "chrome";
-    WebDriver driver; //=  DriverProvider.initialize(browser);
+    WebDriver driver; //=  DriverProvider.initialize(browser)
 
 
 
@@ -30,10 +32,13 @@ public class AddCardSuccessHappyPathTest {
     @Before
     public void setup(){
         System.out.println("SETUP PHASE");
-       driver.get("https://cersei.apps.stl.pcfstage00.mastercard.int/register");
+        driver = DriverFactory.getInstance().getDriver();
+     //   driver = DriverProvider.initialize(browser);
+        driver.get("https://cersei.apps.stl.pcfstage00.mastercard.int/register");
         cp = new CerseiRegisterPage(driver);
         c =  new CheckoutPage(driver);
         tp = new ThreeDSVerificationPage(driver);
+      //  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
     public void e2eflow()
@@ -48,77 +53,116 @@ public class AddCardSuccessHappyPathTest {
     @Test
     public void addCardEndToEndFlow1()
     {
-    e2eflow();
+        try {
+            e2eflow();
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
     @Test
 
     public void addCardEndToEndFlow2()
     {
-       e2eflow();
-    }
+        try {
+            e2eflow();
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }    }
 
 
     @Test
     public void addCardEndToEndFlow3()
     {
-        e2eflow();
-    }
+        try {
+            e2eflow();
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }    }
 
     @Test
     public void addCardEndToEndFlow4()
     {
-        e2eflow();
-
+        try {
+            e2eflow();
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
     @Test
     public void addCardEndToEndFlow5()
     {
-        e2eflow();
-    }
+        try {
+            e2eflow();
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }    }
 
     @Test
     public void addCardEndToEndFlow6()
     {
-        e2eflow();
-
+        try {
+            e2eflow();
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
     @Test
     public void addCardEndToEndFlow7()
     {
-     e2eflow();
-
-    }
+        try {
+            e2eflow();
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }    }
 
     @Test
     public void addCardEndToEndFlow8()
     {
-        e2eflow();
-    }
+        try {
+            e2eflow();
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }    }
 
     @Test
     public void addCardEndToEndFlow9()
     {
-    e2eflow();
-    }
+        try {
+            e2eflow();
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }    }
 
     @Test
     public void addCardEndToEndFlow10()
     {
-        e2eflow();
-    }
+        try {
+            e2eflow();
+            Thread.sleep(3000   );
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }    }
 
 
 
 
-    @After
-    public void tearDown()
-    {
+    @AfterClass
+    public static void tearDown() {
         //System.out.println("TEARDOWN");
-      driver.quit();
-
+        DriverFactory.getInstance().removeDriver();
+     // driver.quit();
     }
 
 }

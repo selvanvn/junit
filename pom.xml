@@ -23,7 +23,7 @@
                 <configuration>
                     <parallel>all</parallel>
                     <perCoreThreadCount>false</perCoreThreadCount>
-                    <threadCountMethods>2</threadCountMethods>
+                    <threadCountMethods>3</threadCountMethods>
                     <useUnlimitedThreads>true</useUnlimitedThreads>
                 </configuration>
             </plugin>

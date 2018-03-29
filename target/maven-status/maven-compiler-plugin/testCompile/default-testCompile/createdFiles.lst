@@ -1,0 +1,6 @@
+mastercard/pages/CheckoutPage.class
+mastercard/endtoend/AddCardSuccessHappyPathTest.class
+mastercard/pages/ThreeDSVerificationPage.class
+mastercard/utilities/DriverFactory.class
+mastercard/utilities/DriverProvider.class
+mastercard/pages/CerseiRegisterPage.class
